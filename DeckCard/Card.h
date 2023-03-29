@@ -1,5 +1,8 @@
 #pragma once
 #include <string>
+#include <iostream>
+#include"Category.h"
+
 using namespace std;
 
 class Card
@@ -7,11 +10,7 @@ class Card
 protected:
 	string name;
 public:
-	enum category
-	{
-		Pokemon = 0,
-		Magic = 1
-	};
+	category category_selected;
 	Card();
 	Card(string nom, category c);
 	string getName();
