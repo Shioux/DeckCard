@@ -1,19 +1,21 @@
 #pragma once
 #include <string>
+#include <iostream>
 using namespace std;
 
 class Card
 {
-protected:
-	string name;
+
 public:
-	enum category
-	{
-		Pokemon = 0,
-		Magic = 1
-	};
+	enum category { POKEMON, MAGIC };
 	Card();
 	Card(string nom, category c);
-	string getName();
+	string getName() { return this->name; };
+
+protected:
+
+	string name;
+	category category_selected;
 };
+
 

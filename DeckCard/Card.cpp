@@ -4,14 +4,7 @@ Card::Card() {};
 
 Card::Card(string nom, category c) {
 	this->name = nom;
-	if (c == Pokemon) {
-		this->Pokemon;
-	}
-	else {
-		this->Magic;
-	}
+	this->category_selected = c;
 };
 
-string Card::getName() {
-	return this->name;
-}
+
