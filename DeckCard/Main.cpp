@@ -14,6 +14,8 @@ int main() {
 
 	*/
 
-	Test test();
+	Test test;
+	test.cardTest();
+	test.pokemonTest();
 	
 };
