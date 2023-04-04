@@ -7,4 +7,10 @@ Card::Card(string nom, category c) {
 	this->category_selected = c;
 };
 
+void Card::dislay() {
+	cout <<"Nom de la carte :" << this->getName() << endl;
+}
+
+
+
 

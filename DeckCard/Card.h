@@ -11,6 +11,7 @@ public:
 	Card();
 	Card(string nom, category c);
 	string getName() { return this->name; };
+	void dislay();
 
 protected:
 

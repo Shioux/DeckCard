@@ -142,6 +142,7 @@
     <ClInclude Include="Attack.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="Pokemon.h" />
+    <ClInclude Include="TypePokemon.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Attack.cpp" />
