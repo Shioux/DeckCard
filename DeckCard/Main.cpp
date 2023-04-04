@@ -8,8 +8,9 @@ int main() {
 
 	cout << "testC : " << testC->getName() << endl << endl;
 	
-	Magic* testM = new Magic("testM",(category)0,(typeMagic)0,100,50);
+	Magic* testM = new Magic("testM",BLANC,100,50);
 
 	cout << "testM : " << testM->getName() << endl << testM->category_selected << endl << endl;
 
+	testM->display();
 }

@@ -4,15 +4,18 @@
 #include<vector>
 #include "TypeMagic.h"
 #include"Category.h"
+#include "Spell.h"
 
 class Magic : public Card
 {
 public:
+	Magic(); //constructeur par défaut
+	Magic(string name, typeMagic t, int hp, int power);
+	void display(); //afficher
+	void createSpell(string name, string description);
+protected:
 	typeMagic typeMagic_selected; //le type que possède la carte parmi l'enumération de type de cartes Magic
 	int hp; //point de vie de la carte
 	int power; //puissancede la carte 
-	//vector<SpellMagic> spells;
-	Magic(); //constructeur oar défaut
-	Magic(string name, category c, typeMagic t, int hp, int power); 
+	vector<Spell*> spells; //liste des spells (attack) des cartes magic
 };
-
