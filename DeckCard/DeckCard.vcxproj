@@ -139,17 +139,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Attack.h" />
     <ClInclude Include="Card.h" />
+<<<<<<< HEAD
     <ClInclude Include="Category.h" />
     <ClInclude Include="Magic.h" />
     <ClInclude Include="Spell.h" />
     <ClInclude Include="TypeMagic.h" />
+=======
+    <ClInclude Include="Pokemon.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="TypePokemon.h" />
+>>>>>>> ft/classPokemon
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Attack.cpp" />
     <ClCompile Include="Card.cpp" />
     <ClCompile Include="Magic.cpp" />
     <ClCompile Include="Main.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="Spell.cpp" />
+=======
+    <ClCompile Include="Pokemon.cpp" />
+    <ClCompile Include="Test.cpp" />
+>>>>>>> ft/classPokemon
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -8,6 +8,10 @@ Card::Card(string nom, category c) {
 	this->category_selected = c;
 };
 
-string Card::getName() {
-	return this->name;
+void Card::dislay() {
+	cout <<"Nom de la carte :" << this->getName() << endl;
 }
+
+
+
+
